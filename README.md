@@ -1,48 +1,30 @@
 # Bash System Monitor
 
-A lightweight Bash script that monitors CPU, Memory, and Disk usage in real-time on Linux systems.
+A simple Bash script I built to monitor system health on Linux. 
+It shows CPU, memory, and disk usage in a readable format — 
+useful for quick system checks without installing any tools.
 
 ## Features
 
-- Real-time CPU usage monitoring
-- Memory usage with total, used, and free stats
-- Disk usage across all drives
-- Displays hostname and timestamp
+- Shows current CPU usage percentage
+- Displays memory stats (total, used, free)
+- Lists disk usage for all drives
+- Shows hostname and current date/time
 
-## How to Run
+## Usage
 
-### 1. Clone the repository
-git clone https://github.com/sivarajavignesh/bash-system-monitor.git
-cd bash-system-monitor
+Clone the repo, give execute permission and run:
 
-### 2. Make script executable
 chmod +x system_monitor.sh
 
-### 3. Run the script
+Run it:
 ./system_monitor.sh
 
-## Sample Output
+## Requirements
 
-=====================================
-       SYSTEM MONITOR REPORT        
-=====================================
-Date & Time: Fri Mar 20 06:22:38 PM IST 2026
-Hostname:    vignesh-VirtualBox
-
---- CPU USAGE ---
-CPU Usage: 10%
-
---- MEMORY USAGE ---
-Total: 2.9Gi  Used: 1.1Gi  Free: 147Mi
-
---- DISK USAGE ---
-Drive: /dev/sda2  Total: 25G  Used: 9.5G  Free: 14G  Usage: 41%
-=====================================
-
-## Technologies Used
-
-- Bash Scripting
-- Linux CLI tools (top, free, df)
+- Linux OS (tested on Ubuntu 24.04)
+- Bash shell
+- Standard Linux tools: top, free, df
 
 ## Author
 
