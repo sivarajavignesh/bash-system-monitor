@@ -13,11 +13,14 @@ useful for quick system checks without installing any tools.
 
 ## Usage
 
-Clone the repo, give execute permission and run:
+Clone the repo first:
+
+git clone https://github.com/sivarajavignesh/bash-system-monitor.git
+cd bash-system-monitor
+
+Give execute permission and run:
 
 chmod +x system_monitor.sh
-
-Run it:
 ./system_monitor.sh
 
 ## Requirements
